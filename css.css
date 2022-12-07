@@ -1,0 +1,125 @@
+body{
+    padding:30px
+
+}
+.top{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 70px;
+}
+
+    
+.listtop ul {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+   
+    
+}
+    
+
+.listtop ul li{
+    margin-right: 30px;
+    font-family: 'raleway',sans-serif;
+    
+}
+
+
+.listtop li:hover{
+     text-decoration: 3px underline #A389CC;  
+   text-decoration-skip-ink:none;
+    
+}
+.listbutton{
+    width: 15%;
+    height: 80px;
+    font-size: 20px;
+    background-color: pink;
+    color: blue;
+    border-radius: 25px;
+    border: none;
+}
+.headings h1{
+    font-family: 'raleway',sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.dot{
+    color: blue;
+}
+.title h3{
+      font-family: 'raleway',sans-serif;
+      font-weight: 400;
+}
+.arrows{
+    display: flex;
+    margin-top: 50px;
+
+}
+.arrows span{
+    margin-left: 10px;
+}
+
+.newbutton button{
+    background-color: #5243C0;
+    color: #ffffff;
+    font-size: 20px;
+    height: 57px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    font-family:'raleway',sans-serif ;
+}
+.line{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:'raleway',sans-serif ;
+    border:2px solid grey;
+    border-radius: 15px;
+    border: none;
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+.line:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgb(192, 190, 190);
+}
+    
+.alllists{
+    display: flex;
+    margin-left: 130px;
+}
+
+.imag{
+    width: 30px;
+    height: 30px;
+    background-image: url(pics/tick-gray.png);
+    background-size: cover;
+}
+.imag:hover{
+    background-image: url(pics/tick-blue.png);
+}
+.line button{
+    height: 15px;
+    width: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.line h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.line p{
+    color: grey;
+}
+.hoverpic{
+    margin-top: 90px;
+}
+.imgpic {
+    width: 100px;
+   
+
+}
